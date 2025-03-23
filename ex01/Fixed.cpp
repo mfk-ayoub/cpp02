@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 09:03:59 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/03/22 01:39:23 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/03/23 08:59:02 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,4 +51,25 @@ Fixed& Fixed::operator=(const Fixed &other)
 		value = other.value;
 	}
 	return (*this);
+}
+
+int Fixed::toInt( void ) const
+{
+	
+}
+
+float Fixed::toFloat( void ) const
+{
+	
+}
+
+Fixed::Fixed(const int nb)
+{
+	std::cout << "Int constructor called" << std::endl;
+	
+}
+
+Fixed::Fixed(const float nb)
+{
+	std::cout << "Float constructor called" << std::endl;
 }
