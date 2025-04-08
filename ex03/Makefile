@@ -6,11 +6,11 @@
 #    By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/23 07:04:36 by ayel-mou          #+#    #+#              #
-#    Updated: 2025/04/06 19:14:36 by ayel-mou         ###   ########.fr        #
+#    Updated: 2025/04/07 14:32:06 by ayel-mou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME:=Fixed
+NAME:=BSP
 BINDIR:=bin/
 
 CC:=c++
@@ -45,3 +45,4 @@ $(BINDIR):
 .DEFAULT_GOAL:= $(NAME)
 .SECONDARY: $(OBJ)
 .PHONY: debug all clean fclean re
+

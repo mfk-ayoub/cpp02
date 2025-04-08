@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 09:03:59 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/04/06 19:05:23 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/04/07 13:12:24 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -163,8 +163,7 @@ Fixed& Fixed::min(Fixed &one, Fixed &two)
     if (one > two)
         return two;
     else
-   
-	return one;
+		return one;
 }
 const Fixed& Fixed::min(const Fixed &one, const Fixed &two)
 {
@@ -187,6 +186,5 @@ const Fixed& Fixed::max(const Fixed &one, const Fixed &two)
     if (one < two)
         return two;
     else
-   
-	return one;
+		return one;
 }
