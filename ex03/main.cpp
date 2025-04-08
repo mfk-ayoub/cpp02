@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 15:26:55 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/04/08 16:15:19 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/04/08 16:54:37 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,10 @@ int main(void)
 	
 
 	Point a3(0,0);
-	Point b3(4,0);	
-	Point c3(2,3);
-	
-	
+	Point b3(0,0);	
+	Point c3(0,0);
+	Point p3(4, 1);
+	if (!bsp(a3,b3,c3,p3))
+		return (1);
+	return (0);
 }

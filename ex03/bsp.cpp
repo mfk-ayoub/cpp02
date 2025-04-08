@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/07 13:47:58 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/04/08 15:39:35 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/04/08 16:56:42 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ bool bsp(Point const a, Point const b, Point const c, Point const point)
 	float 	AreaPCA;
 	
 	AreaABC = AreaOfTriangle(a,b,c);
+	
 	if (!AreaABC)
 	{
 		std::cout << "Error: These points do not form a triangle!" << std::endl;
