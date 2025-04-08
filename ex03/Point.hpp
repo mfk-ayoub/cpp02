@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/07 13:19:23 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/04/08 15:40:34 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/04/08 16:13:35 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,9 @@ class Point
 		Point(const Point& other);
 		Fixed getX() const;
 		Fixed getY() const;
+		Point& operator=(const Point& other);  
 		~Point();
 		
 };
-
+std::ostream& operator<<(std::ostream& print, const Point& other);
 #endif 

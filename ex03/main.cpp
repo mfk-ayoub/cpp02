@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 15:26:55 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/04/08 15:43:41 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/04/08 16:15:19 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,9 @@ int main(void)
     Point c1(2, 3);
     Point p1(2, 1);
 	
+	std::cout << "The coordinates of the point are " << p1 << std::endl;
+	
+	
 	if (bsp(a1,b1,c1,p1))
 		std::cout << "This point is on the inside of a triangle" << std::endl;
 	else
@@ -32,9 +35,17 @@ int main(void)
 	Point c2(2, 3);
 	Point p2(5, 5);
 	
+	std::cout << "The coordinates of the points are " << p2 << std::endl;
+	
 	if (bsp(a2,b2,c2,p2))
 		std::cout << "This point is on the inside of a triangle" << std::endl;
 	else
 		std::cout << "This point is on the outside of a triangle" << std::endl;
+	
+
+	Point a3(0,0);
+	Point b3(4,0);	
+	Point c3(2,3);
+	
 	
 }
